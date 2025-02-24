@@ -1,7 +1,8 @@
-import express from 'express';
+import express from "express";
 import fetchRedditTrends from './reddit/trends';
 import storage from './data/storage';
 import fetch from 'node-fetch';
+
 require('dotenv').config();
 import { telexIntegrationConfig } from './integration'
 

@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
     "strict": true,
-    "esModuleInterop": true, 
-    "skipLibCheck": true, 
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["*.ts", "routes/**/*.ts"],  
-  "exclude": ["node_modules", "dist"]   
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "commonjs",
+    // other options...
+  }
 }
